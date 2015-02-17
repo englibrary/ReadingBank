@@ -1,0 +1,34 @@
+/**
+ * @author Administrator
+ */
+
+$(document).ready(function(){
+	
+	
+		$('#btnLogIn').click(function() { 
+			
+			// this.form.submit();
+		 	 	   alert("length > 0");
+		 	$.getJSON("../UserAuthentification.php",function(json) {
+		 	 		
+		 		 alert("Before length");
+		 		if(json.users.length>0) {
+				
+				   alert("users > 0");
+				    $.each(json.users,function(){
+					
+					var info = '<li> Name : '+ this['user']+ ' ' + this['password'] ;
+					alert(info);
+					
+				   } );
+				
+				} //End of if(json)
+				
+				
+		 	} // End of function
+		 ); // End of getJSON
+		});
+		
+  
+        
+});

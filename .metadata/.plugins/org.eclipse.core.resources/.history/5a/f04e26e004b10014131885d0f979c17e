@@ -1,0 +1,29 @@
+/**
+ * @author Administrator
+ */
+
+$(document).ready(function(){
+	
+	
+		$('#btnLogIn').click(function() { 
+			
+			// this.form.submit();
+		 	 	   alert("length > 0");
+		 	$.getJSON("UserAuthentification.php",function(json) {
+		 	 		
+		 		
+		 		if(json.runners.length>0) {
+				
+				   alert("length > 0");
+				      			
+				
+				} //End of if(json)
+				
+				
+		 	} // End of function
+		 ); // End of getJSON
+		});
+		
+  
+        
+});

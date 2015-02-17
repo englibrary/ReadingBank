@@ -1,0 +1,165 @@
+
+		#form1 { margin: 0; }
+		
+	    body {
+			background: #326295;
+		}
+
+		
+		.bg-wrapper {
+			position: relative;
+			color: #fff;
+			background: url('./rp_entry_background.jpg');
+			background-size: cover;
+			background-position: 50% 0;
+			min-height: 388px;
+			margin: -1em 0 -1em 0;
+			padding: 52px 0 105px 0;
+		}
+
+			.bg-wrapper label, .bg-wrapper a, .bg-wrapper a:hover {
+				color: #fff;
+			}
+
+			.ie8-bg-cover-cheat {
+				display: none;
+				top: 0;
+				left: 0;
+				min-width: 100%;
+				position: absolute;
+				overflow: hidden;
+				z-index: 1;
+			}
+
+				.ie8 .ie8-bg-cover-cheat {
+					display: block;
+				}
+
+				.ie8-bg-cover-cheat img {
+					width: 100%;
+					height: auto;
+				}
+
+			.wrapper-inner {
+				position: relative;
+				z-index: 10;
+			}
+
+		#hHeader {
+			font-size: 2em;
+			font-weight: 400;
+			text-align: center;
+			margin-bottom: 1.555555555555556em;
+		}
+
+		#alert {
+			color: #606161;
+			display: none;
+			margin-top: -2em;
+		}
+
+			#alert a {
+				color: #31b3ff;
+			}
+
+		.row-wrapper {
+			display: table;
+			margin: 0 auto;
+		}
+
+		.login-row {
+			width: 315px;
+			display: table;
+			text-align: right;
+			margin-left: -80px;
+		}
+
+		#tbUsername {
+			font-size: 1em;
+			float:left; 
+			line-height: 2.4em;
+			text-align:right;
+			padding-right: 5px;
+			width: 33%; 
+			height: 2.4em;
+		}
+
+
+		label {
+			font-size: 1em;
+			float:left; 
+			line-height: 2.4em;
+			text-align:right;
+			padding-right: 5px;
+			width: 33%; 
+			height: 2.4em;
+		}
+
+		input[type="text"], input[type="password"] {
+			font-size: 1em !important;
+			color: #555;
+			height: 2.4em !important;
+			width: 67% !important;
+		}
+
+		input[type="password"] {
+			font-family: Arial, sans-Serif;
+		}
+
+		input.error {
+			background: #fff;
+		}
+
+		.pipe {
+			margin: 0 1em;
+		}
+
+		#btnLogIn {
+			float: right;
+			font-size: 1em;
+			font-weight: 700;
+			min-height: 2.04em;
+			padding: 0.25em 0.5em;
+			margin-right: 0;
+			width: 210px;
+		}
+
+		#btnLogIn span.text {
+			line-height: 1.8em;
+		}
+
+		#btnLogIn span.glyph {
+			float: right;
+			font-size: 1.333333333333333em;
+			line-height: 1.35em;
+		}
+
+		#divChangePassword {
+			float: right;
+			margin-bottom: 1em;
+			text-align: center;
+			width: 210px;
+		}
+
+		#divAlert {
+			font-size: 0.8em;
+			font-weight: 700;
+			margin: 0 auto 4.4em auto;
+			padding: 1em;
+			width: 620px;
+		}
+
+			#divAlert span.glyph {
+				font-size: 1.2em;
+				margin-right: 0.5em;
+			}
+
+		#divSupport {
+			margin-top: 5.4em;
+		}
+
+		.app-footer .row {
+			min-width: 0;
+			width: 100%;
+		}
+		

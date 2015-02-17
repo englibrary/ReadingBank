@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>LoginHome</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Date: 2015-02-10 -->
+		 <link href="styles/master.css" rel="stylesheet" type="text/css" /> 
+		 <link href="styles/home.css" rel="stylesheet" type="text/css" /> 
+	    
+	</head>
+	
+	<body>
+		
+		
+        <form id="form1" name="form1" method="post" action="Login5result.php" id="form1">
+	
+	    <div class="bg-wrapper">
+
+       <div class="wrapper-inner">
+       		    <h1 id="hHeader" class="style-text-large">Student</h1>
+
+      			<div class="row-wrapper">
+				<div class="login-row">
+					<label for="tbUsername">User Name&nbsp;</label>
+					<input name="ctl00$cp_Content$tbUserName" type="text" maxlength="50" id="tbUserName" tabindex="1" class="loginTB" />
+				</div>
+				<div class="login-row">
+					<label for="tbPassword">Password&nbsp;</label>
+					<span><input name="ctl00$cp_Content$tbPassword" type="password" maxlength="20" size="25" id="tbPassword" tabindex="2" class="loginTBn" /></span>
+				</div>
+				<div class="login-row">
+					<button id="btnLogIn" type="button" class="button hollow white" tabindex="3">
+						<span id="ctl00_cp_Content_spLogin" class="text">Log In  </span>
+						<span class="glyph glyph-chevron-next"> </span>
+					</button>
+				</div>
+				
+				
+			</div>
+                    <!-- Message of Invalid Login Information -->
+                 	<div id="divAlert" class="login-row text-center style-radius">
+			    	<span class="glyph glyph-warning2"></span>
+		     		<span id="ctl00_cp_Content_spAlert">You have entered an invalid user name or password. If you have forgotten your user name or password, please see your teacher or administrator.</span>
+        			</div>
+
+        </div>
+       </div>
+
+       <div class="app-footer nonPrintable">
+	     <div class="row">
+		 <p id="ctl00_mFooter_dCopyright">&copy; 2015 Renaissance Learning, Inc. All rights reserved. 
+		
+		
+	     </div>
+       </div>
+	
+
+</form>
+        <script src="scripts/jquery-1.6.2.min.js"></script>
+		<script src="scripts/login.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,19 @@
+<?php
+ 
+ if($_GET){
+	if($_GET['action'] == 'getRunners'){
+		
+		
+		// $query = "SELECT first_name, last_name, gender, finish_time FROM runners order by finish_time ASC ";
+		// $result = db_connection($query);
+		
+		$loginusers = array();
+
+        array_push($loginusers, array('user' => 'kim', 'password' => 'pass'));
+		
+		echo json_encode(array("users" => $loginusers));
+		exit;
+	} 
+}
+ 
+?>
