@@ -1,7 +1,0 @@
-/**
- * @author Administrator
- */
- function placeOrder(form) {
-   
-          form.submit();
-        }
