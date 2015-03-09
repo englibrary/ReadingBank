@@ -1,0 +1,5 @@
+﻿.prevNext{text-align:center; margin:1.5em;}
+.prevNext div{vertical-align:middle; display:inline-block; }
+.prevNextText{margin:.75em;}
+.prevNextEnabled{color:#31B3FF; cursor:pointer; font-size:32px;}
+.prevNextDisabled{color:#e5e5e5; cursor:default; font-size:32px;}

@@ -1,0 +1,16 @@
+﻿.tabMenu {color:#000; border-bottom:1px solid #999; margin:0px; z-index:1; white-space:nowrap;}
+.tabMenu li{display:inline; list-style-type:none;}
+.tabMenu a, a.active{display:inline-block;color:#000; background:#eee; border:1px solid #999; padding:6px 50px; margin-bottom:-1px; text-decoration:none; vertical-align:bottom;}
+.tabMenu a.active{background:#fff; border-bottom:1px solid #fff;}
+.tabMenu a:hover{color:#000; background:#ccc; }
+.tabMenu a:visited{color:#000; }
+.tabMenu a.active:hover{background:#ccc; color:#000;}
+.tabContent{background:#fff; padding:4px; border:1px solid #999; border-top:none; z-index:2;}
+
+.ui-datepicker-trigger { height: 22px; vertical-align:middle; margin-left:0px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; font-size: 50%; }
+button.ui-datepicker-trigger { border: 0px; margin-top: -2px; }
+
+@media print
+{	
+	.tabContent{background:#fff;border:none;padding:0px;}
+}

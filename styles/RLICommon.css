@@ -1,0 +1,221 @@
+BODY{margin:0px; background-color:white; font-size:70%; font-family:Verdana, Arial, Geneva, Sans-Serif;}
+FORM{margin:0px;}
+A{color:#003399; text-decoration:none;}
+A:link{color:#003399; text-decoration:none;}
+A:visited{color:#003399; text-decoration:none;}
+A:hover{background-color:#ffd700; text-decoration:underline;}
+hr{background-color:#cccccc; color:#cccccc; height:1px;}
+select{font-size: 110%;}
+caption {text-align:left; font-weight:bold; padding:0px;}
+thead {display:table-header-group;}
+tfoot {display:table-footer-group;}
+tbody {display:table-row-group;} 
+
+.contentArea{padding:12px 10px 20px 10px; width:97%; border:0px; vertical-align:top;}
+.pageMainTable{margin:12px 10px 20px 10px; width:97%; border:0px; vertical-align:top;}
+.printable{display:none;}
+
+.imageButton:hover{background-color:transparent; text-decoration:none;}
+
+/*-----------------------------------------------------------------------
+don't change order or any of these, specificity at work. */
+
+.noPadding {border:0px;}
+.noPadding td {padding:0px;}
+
+.paddingFour td {padding:4px;}
+.paddingFour div {padding:4px;}
+
+.tableSetting {border:0px; background-color:#cccccc; border-spacing:1px;}
+.tableSetting td{padding:4px;}
+.tableSetting {text-align:left;}
+.tableSetting th{padding:4px; font-weight:normal; text-align:inherit; background-color:#ffff99; vertical-align:bottom;}
+
+.tableFooterMultiRow th {padding:4px; font-weight:normal; background-color:#ffff99; vertical-align:top; text-align:left;}
+.tableSettingHdr {background-color:#ffff99;} /*for use only in Datagrid headers*/
+
+.tableSettingHdrStrong{font-size:130% !important; font-weight:bold !important;}
+
+.columnNumber tr {text-align:right!important;}
+.columnNumber {text-align:right !important;}
+.columnText tr {text-align:left !important;}
+.columnText {text-align:left !important;}
+.columnVariant tr {text-align:center !important;}
+.columnVariant {text-align:center !important;}
+
+.paddingTwo td {padding:2px;}
+.paddingTwo div{padding:2px;}
+
+.row td{background-color:#ffffff;}
+.altrow td{background-color:#eeeeee;}
+
+/* end don't change order 
+------------------------------------------------------------------------*/
+
+.dropDownRowGutter td {padding-top:4px;}
+
+.headerSideBar{	background-color:#eeeeee; width:168px; max-width:168px; min-width:168px;}
+.headerSideBar div{padding-left:8px; padding-top:8px;}
+
+.sideBar{background-color:#eeeeee; vertical-align:top; padding:0px;}
+.sideBar div{padding:12px 4px 20px 10px; width:154px; max-width:154px; min-width:154px;}
+
+.footNoteText{color:#666666;}/*grey*/
+.alertText{color:#ff0000; font-weight:bold;} /*red*/
+.missingCapability{font-weight:bold;}
+.warningText{font-weight:bold;}
+.disabledText{color:#808080;}
+.exampleText{font-size:90%;}
+.explanationText{color:#666666; font-style:italic; }
+.titleText{font-weight:bold; font-size:120%;}
+.headerText{font-size:130%;}
+
+.cautionText{color:#ff0000;} /*red*/
+.cautionText:link{color:#ff0000;}
+.cautionText:visited{color:#ff0000;} 
+.cautionText:hover{color:#ff0000;} 
+.cautionText:active{color:#ff0000;} 
+
+.searchControl{border:0px; background-color:#cccccc; border-spacing:1px;}
+.searchControl td, .searchControl div{padding:4px;}
+.searchControl th{padding:4px; font-weight:bold; text-align:left; }
+.searchControl tr{background-color:#eeeeee;}
+
+.searchChanges{border:0px; background-color:#cccccc; border-spacing:1px;}
+.searchChanges td{padding:4px;}
+.searchChangesHeader{background-color:#eeeeee;}
+.searchChangesTable{border:0px; background-color:#ffffff;}
+.searchChangesTable td{padding:2px;}
+
+.searchResults{border:0px; background-color:#cccccc; border-spacing:1px;}
+.searchResults td{padding:0px;}
+.searchResultsHeader{background-color:#eeeeee;}
+.searchResultsHeader td{padding:2px;}
+
+.labelColumn{background-color:#eeeeee; white-space:nowrap;}
+.dataColumn{background-color:#ffffff; vertical-align:top;}
+
+/*-----------------------------------------------------------------------
+don't change order of any of these, specificity at work. */
+
+.optionsTable{border:0px; background-color:#cccccc; border-spacing:1px;}
+.optionsTable td{padding:4px;}
+.optionsTable div{padding:4px;}
+.optionsTable th{padding:4px; background-color:#ffff99; vertical-align:bottom; text-align:left; font-weight:bold; white-space:nowrap;}
+.optionsTable Table td {padding:0px;} /*revisit*/
+
+.labelColumnWithDesc{background-color:#eeeeee; font-weight:bold;}
+.labelColumnWithDesc div{ padding:0px; }
+.labelColumnDesc{font-weight:normal; }
+
+.optionsTable .labelColumnWithDesc{padding:6px;}
+.optionsTable .labelColumn{padding:6px;}
+
+/* end don't change order 
+------------------------------------------------------------------------*/
+
+.reportOption {}
+.reportOption td {vertical-align:middle; padding:6px;}
+.reportOption table td{padding:4px 2px 4px 2px;}
+
+.tableButtonRow{margin-top:.5em; margin-bottom:1.5em;}
+.tableButtonRow input {margin-right:5px;}
+.pageButtonRow{margin-top:1.5em;}
+.pageButtonRow input{margin-right:5px;}
+.pageButtonRowTop{margin-bottom:1.5em;}
+.pageButtonRowTop input{margin-right:5px;}
+
+.smallButton{width:46px;}
+.bullet ul {margin:.5em 0px; padding:0px;}
+.bullet li {margin:.25em 0em 0em 1.25em;}
+.paragraph{margin:1em 0em;}
+
+.taskTableHeader {font-weight:bold; white-space:nowrap;} 
+.taskTable {vertical-align:top;}
+.taskTable * {line-height:2em;}
+
+.gutter{width:10px;}
+.gutterMedium{width:20px;}
+.gutterLarge{width:30px;}
+
+.horizontalLine td {border-bottom:solid 1px #cccccc;}
+.shadow {-moz-box-shadow:0px 7px 12px rgba(0,0,0,.75); -webkit-box-shadow:0px 7px 12px rgba(0,0,0,.75); box-shadow:0px 7px 12px rgba(0,0,0,.75);}
+.modalShadow {-moz-box-shadow:0px 0px 20px rgba(0,0,0,.75); -webkit-box-shadow:0px 0px 20px rgba(0,0,0,.75); box-shadow:0px 0px 20px rgba(0,0,0,.75);}
+.roundedCorners {-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+.roundedCornersHdr {-moz-border-radius:9px 9px 0 0; -webkit-border-radius:9px 9px 0 0; border-radius:9px 9px 0 0;}
+.roundedCornersSm {-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.rotate {-webkit-transform:rotate(-90deg); -moz-transform:rotate(-90deg); -ms-transform:rotate(-90deg);}
+.modalBackground{ background-color:#000000; filter:alpha(opacity=45); opacity:0.45; height:100%; width:100%; z-index:1000; position:fixed; top:0px; left:0px;}
+
+.prompt{font-weight:bold; font-size:120%; padding-top:9px;}
+.promptMargin{padding:10px 0px 0px 10px; border:0px; padding-right:0px; width:100%;}
+.subprompt{	font-size:90%; color:#666666;}
+.studentPrompt{font-weight:bold; font-size:160%; }
+.copyrightText{margin-top:2px; font-size:90%; margin-left:5px; color:#999;}
+
+.studentPage{font-size:160%;}
+.studentPage *{font-size:100%;}
+.studentLinks{font-size:160%; text-decoration:underline; }
+.studentText{font-size:160%;}
+.studentMedText{font-size:130%;}
+
+.linkGroup {margin-bottom:2em;}
+.linkGroup div {padding:4px 0px;}
+.linkGroup span {padding:4px 0px;}
+
+.genInfo {margin-top:1em; margin-bottom:1em;} 
+.watermark {color:#808080; font-weight:lighter;}
+.watermarkOff {}
+
+/* chat only */
+.chatAvail {color:#003399; font-weight:bold;}
+.chatUnAvail {color:#acacac; font-weight:bold;}
+
+
+/*header only*/
+.headerList { display:inline; margin:0px; padding:0px; }
+.headerList li {display:inline; padding:0px 0px 0px 6px; margin:0px; border-left:solid 1px #999999;}
+.headerListFirst {border-left:none !important; padding-left:0px !important;}
+.logoRowText{color:#eeeeee;}
+
+
+/* Ask before using */
+/*********************************/
+H1{font-weight:bold; font-size:120%;}
+.small{font-size:100%;}
+.selectedLink{font-weight:bold; color:#000000;}
+.helpPrompt{font-weight:bold; font-size:120%; color:#039;}
+.disabled{color:#999999 ;}
+TD.helpHeaderBackground{background-color:#eeeeee;}
+/*********************************/
+
+.pageNotCleaned{display:none; }
+
+@media print
+{	
+	input[type="button"],input[type="submit"] {display:none;}
+	body { -webkit-print-color-adjust: exact; }
+			
+	.tableSetting th{background-color:#ffffff;font-weight:bold;}	
+	.tableFooterMultiRow th {background-color:#ffffff;}
+	.tableSettingHdr {background-color:#ffffff;} /*for use only in Datagrid headers*/
+	.tableSetting td, th {padding-left:0px; padding-right:4px;}
+
+	.altrow td{background-color:#ffffff;}
+
+	.headerSideBar{display:none;}
+	.sideBar{display:none;}
+	.labelColumn{background-color:#ffffff;}
+
+	.optionsTable{background-color:#ffffff;}
+	.optionsTable th{background-color:#ffffff;}
+	.labelColumnWithDesc{background-color:#ffffff;}
+	
+	.logoRowText{color:#000000;}
+	.logoRowBackground{background:#ffffff !important;}
+	.printable{display:inline;} 
+	.nonPrintable{display:none;}
+	
+	
+}
+
